@@ -30,18 +30,26 @@ public class SandraCalculator {
                 result = no1 * no2;
                 System.out.println(no1 + "*"+ no2 + "=" + result);
                 break;
+		
+	   //Addition
             case '+':
                 result = no1 + no2;
                 System.out.println(no1 + "+"+ no2 + "=" + result);
                 break;
+            
+            //Subtraction
             case '-':
                 result = no1 - no2;
                 System.out.println(no1 + "-" + no2 + "=" + result);
                 break;
+
+            //Division
             case '/':
                 result = no1 / no2;
                 System.out.println(no1 + "/" + no2 + "=" + result);
                 break;
+
+            //Default
             default:
                 System.out.println("Invalid Operator");
                 break;
